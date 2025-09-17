@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.leftsection {
+  width: 512px;
+  height: 512px;
+  background: crimson;
+}
+
+/* 계산기 */
+.Arithmometer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid #ddd;
+  width: 400px;
+  transform: translate(-50%, -50%);
+}
+.inputText {
+
+}
+.inputText input {
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  height: 100px;
+  font-size: 30px;
+  text-align: right;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+.inputBtn {
+  margin: 0;
+  padding: 0;
+}
+.inputBtn button {
+  height: 100px;
+  aspect-ratio: 1 / 1;
+  font-size: 20px;
+  background: #ddd;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.colorBtn {
+  background: #aaa !important;
+  border: 1px solid #aaa !important;
+}
+ul, li {
+  list-style: none;
+}
+:focus {
+  outline: none;   
+}
